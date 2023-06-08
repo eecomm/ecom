@@ -12,7 +12,7 @@ export default function App() {
   
   return (
     <Layout>
-      <Navbar isBordered variant={variant}>
+      <Navbar isBordered variant="floating">
         <Navbar.Brand>
           <AcmeLogo />
           <Text b color="inherit" hideIn="xs">
@@ -20,9 +20,9 @@ export default function App() {
           </Text>
         </Navbar.Brand>
         <Navbar.Content hideIn="xs">
-          <Navbar.Link href="#">Features</Navbar.Link>
-          <Navbar.Link isActive href="#">Customers</Navbar.Link>
-          <Navbar.Link href="#">Pricing</Navbar.Link>
+          <Navbar.Link href="#">Home</Navbar.Link>
+          <Navbar.Link isActive href="#">Products</Navbar.Link>
+          <Navbar.Link href="#">Offers</Navbar.Link>
           <Navbar.Link href="#">Company</Navbar.Link>
         </Navbar.Content>
         <Navbar.Content>
@@ -37,24 +37,7 @@ export default function App() {
         </Navbar.Content>
       </Navbar>
       <VariantsSelectorWrapper>
-        <Card css={{maxW: "50%"}}>
-          <Card.Body css={{pt: "$8", px: "$8"}}>
-            <Radio.Group
-              defaultValue="default"
-              label="Select variant"
-              orientation="horizontal"
-              size="sm"
-              value={variant}
-              onChange={setVariant}
-            >
-              {variants.map((variant) => (
-                <Radio key={variant} value={variant}>
-                  {variant}
-                </Radio>
-              ))}
-            </Radio.Group>
-          </Card.Body>
-        </Card>
+        
       </VariantsSelectorWrapper>      
     </Layout>
   )
