@@ -1,0 +1,35 @@
+{
+  "1":{
+    "name":"",
+    "description": "",
+    "originalPrice": "",
+    "discountPrice": "",
+    "availability": true,
+    "imageUrl": [],
+    "avgRating": 5,
+    "numCustomers": 6,
+    "bestseller": true
+  },
+  "2":{
+    "name":"",
+    "description": "",
+    "originalPrice": "",
+    "discountPrice": "",
+    "availability": true,
+    "imageUrl": [],
+    "avgRating": 5,
+    "numCustomers": 6,
+    "bestseller": true
+  },
+  "3":{
+    "name":"",
+    "description": "",
+    "originalPrice": "",
+    "discountPrice": "",
+    "availability": true,
+    "imageUrl": [],
+    "avgRating": 5,
+    "numCustomers": 6,
+    "bestseller": true
+  }
+}
