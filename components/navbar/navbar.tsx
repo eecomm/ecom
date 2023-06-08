@@ -12,7 +12,7 @@ export default function App() {
   
   return (
     <Layout>
-      <Navbar isBordered variant="floating">
+      <Navbar isBordered variant="sticky">
         <Navbar.Brand>
           <AcmeLogo/>
           {/* <Text b color="inherit" hideIn="xs">

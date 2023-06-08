@@ -16,6 +16,7 @@
   }
 }
 
+<<<<<<< HEAD
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -25,3 +26,14 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+=======
+/*body {*/
+/*  color: rgb(var(--foreground-rgb));*/
+/*  background: linear-gradient(*/
+/*      to bottom,*/
+/*      transparent,*/
+/*      rgb(var(--background-end-rgb))*/
+/*    )*/
+/*    rgb(var(--background-start-rgb));*/
+/*}*/
+>>>>>>> 0adb9f12833e2f0a47541117173bd7438541603c
