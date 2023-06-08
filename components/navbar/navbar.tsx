@@ -14,10 +14,10 @@ export default function App() {
     <Layout>
       <Navbar isBordered variant="floating">
         <Navbar.Brand>
-          <AcmeLogo />
-          <Text b color="inherit" hideIn="xs">
-            ACME
-          </Text>
+          <AcmeLogo/>
+          {/* <Text b color="inherit" hideIn="xs">
+            Amijara
+          </Text> */}
         </Navbar.Brand>
         <Navbar.Content hideIn="xs">
           <Navbar.Link href="#">Home</Navbar.Link>
