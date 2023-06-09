@@ -1,35 +1,68 @@
-{
-  "1":{
-    "name":"",
-    "description": "",
-    "originalPrice": "",
-    "discountPrice": "",
-    "availability": true,
-    "imageUrl": [],
-    "avgRating": 5,
-    "numCustomers": 6,
-    "bestseller": true
+[
+  {
+      "id": "1",
+      "code": "cm230f032",
+      "name": "Amijara Pain Relieving Oil",
+      "description": "All in 1 oil for pain treatment",
+      "image": "https://amijara.com/images/bestsellers/1.png",
+      "price": 180,
+      
+      "category": "Oil",
+      "quantity": 63,
+      "inventoryStatus": "INSTOCK",
+      "rating": 4,
+      "discountPrice": "",
+      "imageUrl": [],
+      "numCustomers": 6,
+      "bestseller": true
   },
-  "2":{
-    "name":"",
-    "description": "",
-    "originalPrice": "",
-    "discountPrice": "",
-    "availability": true,
-    "imageUrl": [],
-    "avgRating": 5,
-    "numCustomers": 6,
-    "bestseller": true
+  {
+      "id": "1010",
+      "code": "plb34234v",
+      "name": "Amijara Roll-on",
+      "description": "All in 1 oil for pain treatment",
+      "image": "https://amijara.com/images/bestsellers/1.png",
+      "price": 24,
+      "category": "Roll-on",
+      "quantity": 0,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 4,
+      "discountPrice": "",
+      "imageUrl": [],
+      "numCustomers": 6,
+      "bestseller": true
   },
-  "3":{
-    "name":"",
-    "description": "",
-    "originalPrice": "",
+  {
+      "id": "1011",
+      "code": "4920nnc2d",
+      "name": "Amijara Balm",
+      "description": "Product Description",
+      "image": "https://amijara.com/images/bestsellers/1.png",
+      "price": 89,
+      "category": "Balm",
+      "quantity": 23,
+      "inventoryStatus": "INSTOCK",
+      "rating": 4,
+      "discountPrice": "",
+      "imageUrl": [],
+      "numCustomers": 6,
+      "bestseller": true
+  },
+  {
+    "id": "1012",
+    "code": "4920nnc2d",
+    "name": "Green Earbuds",
+    "description": "Product Description",
+    "image": "https://amijara.com/images/bestsellers/1.png",
+    "price": 89,
+    "category": "Electronics",
+    "quantity": 23,
+    "inventoryStatus": "INSTOCK",
+    "rating": 4,
     "discountPrice": "",
-    "availability": true,
     "imageUrl": [],
-    "avgRating": 5,
     "numCustomers": 6,
     "bestseller": true
-  }
 }
+  
+]
