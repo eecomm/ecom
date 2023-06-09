@@ -5,7 +5,7 @@ import { Button } from 'primereact/button';
 import { DataView, DataViewLayoutOptions } from 'primereact/dataview';
 import { Rating } from 'primereact/rating';
 import { Tag } from 'primereact/tag';
-import { Text } from "@nextui-org/react";
+import { Text, red } from "@nextui-org/react";
 
 interface Product {
     id: string;
@@ -14,6 +14,7 @@ interface Product {
     description: string;
     image: string;
     price: number;
+    discountPrice: number;
     category: string;
     quantity: number;
     inventoryStatus: string;
@@ -63,7 +64,7 @@ export default function BasicDemo() {
                         <Rating value={product.rating} readOnly cancel={false}></Rating>
                     </div>
                     <div className="flex align-items-center justify-content-between">
-                        <span className="text-2xl font-semibold">${product.price}</span>
+                        <span  className="text-2xl font-semibold"><span style={{textDecorationLine: 'line-through', color: 'red'}}>&#x20B9;{product.price}</span>&nbsp;&nbsp;&nbsp;&#x20B9;{product.discountPrice}</span>
                         <Button icon="pi pi-shopping-cart" className="p-button-rounded" disabled={product.inventoryStatus === 'OUTOFSTOCK'}></Button>
                     </div>
                 </div>

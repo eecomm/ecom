@@ -11,7 +11,7 @@
       "quantity": 63,
       "inventoryStatus": "INSTOCK",
       "rating": 4,
-      "discountPrice": "",
+      "discountPrice": 10,
       "imageUrl": [],
       "numCustomers": 6,
       "bestseller": true
@@ -27,7 +27,7 @@
       "quantity": 0,
       "inventoryStatus": "OUTOFSTOCK",
       "rating": 4,
-      "discountPrice": "",
+      "discountPrice": 10,
       "imageUrl": [],
       "numCustomers": 6,
       "bestseller": true
@@ -43,7 +43,7 @@
       "quantity": 23,
       "inventoryStatus": "INSTOCK",
       "rating": 4,
-      "discountPrice": "",
+      "discountPrice": 10,
       "imageUrl": [],
       "numCustomers": 6,
       "bestseller": true
@@ -59,7 +59,7 @@
     "quantity": 23,
     "inventoryStatus": "INSTOCK",
     "rating": 4,
-    "discountPrice": "",
+    "discountPrice": 10,
     "imageUrl": [],
     "numCustomers": 6,
     "bestseller": true
