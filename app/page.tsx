@@ -10,12 +10,13 @@ import 'primereact/resources/themes/lara-light-indigo/theme.css';   // theme
 import 'primereact/resources/primereact.css';                       // core css
 import 'primeicons/primeicons.css';                                 // icons
 import 'primeflex/primeflex.css';                                   // css utility
-
+import ServiceBox from '../components/service/service-section';
 export default function Home() {
   return (
     <>
         <Navbar></Navbar>
         <Slider></Slider>
+        <ServiceBox />
         <Products></Products>
     </>
   )
